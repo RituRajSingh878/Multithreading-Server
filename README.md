@@ -1,2 +1,2 @@
 # Multithreading-Server
-Made a Multithreading Server Project for Operating System
+Made a Multithreading Server Project for Operating System Course
