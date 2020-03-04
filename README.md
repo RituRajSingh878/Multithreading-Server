@@ -2,7 +2,7 @@
 Made a Multithreading Server Project for Operating System Course
 
 ## Description
-I have created a multithreaded server with N threads by requesting ffrom the server.  When a new client request arrives, the server will add it to a queue of connections. The threads will remove one connection from the queue and will handle the request. If the connection queue does not have a connection available, the thread will “sleep” until a connection is ready. Program should not use busy waiting.
+I have created a multithreaded server with N threads by requesting from the server.  When a new client request arrives, the server will add it to a queue of connections. The threads will remove one connection from the queue and will handle the request. If the connection queue does not have a connection available, the thread will “sleep” until a connection is ready. The program should not use busy waiting.
 
 
 ## How to Run the Code(For Linux System)
@@ -28,7 +28,7 @@ eg.
 ```console
 local/Multithreading-Server:~$ ./server  8080 10 50
  ```
- After giving this command local server is running inside your computer. Now You have to run clint server withiut closing this server so open a new terminal in the same director and run the following command.
+ After giving this command, local server is running inside your computer. Now You have to run a clint server without closing this server so open a new terminal in the same directory and run the following command.
 ```console
 local/Multithreading-Server:~$ ./client 127.0.0.1 8080 50
 [output] Result is 500
